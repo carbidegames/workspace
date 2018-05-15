@@ -1,0 +1,6 @@
+[submodule "blockgame"]
+	path = blockgame
+	url = https://github.com/carbidegames/blockgame.git
+[submodule "common"]
+	path = common
+	url = https://github.com/carbidegames/common.git

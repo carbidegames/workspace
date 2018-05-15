@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "blockgame",
+    "common/blockengine",
+    "common/lagato",
+    "common/lagato-ggez",
+    "common/rivr",
+    "common/rivr-ggez",
+]
+
+# Debug mode performance without any optimizations is way too slow for games
+[profile.dev]
+opt-level = 1
